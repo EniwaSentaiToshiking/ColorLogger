@@ -1,0 +1,102 @@
+//        if (colorSensor->getBrightness() >= (LIGHT_WHITE + LIGHT_BLACK)/2)
+
+        /*pwm_l = 30;
+        pwm_r = 30;
+
+        leftMotor->setPWM(pwm_l);
+        rightMotor->setPWM(pwm_r);
+
+        if(current_distance > 35)  break;*/
+
+        // pwm_l = prev_pwm_l;
+        // pwm_r = prev_pwm_r;
+
+        // if(current_distance < 30){
+        //     pwm_l = 30;
+        //     pwm_r = 30;
+        // }else {
+        //     target_pwm_l = 0;
+        //     target_pwm_r = 0;
+        //     /*if ( ++timer >= (SPEED_CALC_INTERVAL / TASK_INTERVAL) ) {
+        //        timer = 0;
+        //        pwm_l = (target_pwm_l * 0.4) + (prev_pwm_l * 0.6);
+        //        pwm_r = (target_pwm_r * 0.4) + (prev_pwm_r * 0.6);
+        //     }else {
+        //        pwm_l = prev_pwm_l;
+        //        pwm_r = prev_pwm_r;
+        //     }*/
+        //     pwm_l = target_pwm_l;
+        //     pwm_r = target_pwm_r;
+        // }
+
+        //logger->logging(colorSensor->getBrightness());
+
+        /*if(colorSensor->getColorNumber() <= 1){
+            pwm_l = 10;
+            pwm_r = 10;
+        } else {
+            pwm_l = 0;
+            pwm_r = 0;
+        }
+
+
+        leftMotor->setPWM(pwm_l);
+        rightMotor->setPWM(pwm_r);
+
+        prev_pwm_l = pwm_l;
+        prev_pwm_r = pwm_r;*/
+
+        
+
+        /*
+         *ジャックナイフ制御，90旋回
+         */
+
+        /*pwm_l = prev_pwm_l;
+        pwm_r = prev_pwm_r;
+
+        if(current_direction < 95){
+            pwm_l = 0;
+            pwm_r = 100;
+        }else {
+            target_pwm_l = 0;
+            target_pwm_r = 0;
+            if ( ++timer >= (SPEED_CALC_INTERVAL / TASK_INTERVAL) ) {
+                timer = 0;
+                pwm_l = (target_pwm_l * 0.8) + (prev_pwm_l * 0.2);
+                pwm_r = (target_pwm_r * 0.8) + (prev_pwm_r * 0.2);
+            }else {
+                pwm_l = prev_pwm_l;
+                pwm_r = prev_pwm_r;
+            }
+        }
+
+        leftMotor->setPWM(pwm_l);
+        rightMotor->setPWM(pwm_r);
+
+        prev_pwm_l = pwm_l;
+        prev_pwm_r = pwm_r;*/
+
+        /*
+         *180旋回 
+         */
+
+        /*if(current_direction <= 92){
+            pwm_l = -10;
+            pwm_r = 10;
+            current_distance = 0.0;
+        }else if(current_direction > 92 && current_direction < 185){
+            if(current_distance < 2.0){
+                pwm_l = 5;
+                pwm_r = 5;
+            }else {
+                pwm_l = -10;
+                pwm_r = 10;
+            }
+        }else {
+            pwm_l = 0;
+            pwm_r = 0;
+        }*/
+
+        //leftMotor->setPWM(pwm_l);
+        //rightMotor->setPWM(pwm_r);
