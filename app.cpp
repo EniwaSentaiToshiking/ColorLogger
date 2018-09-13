@@ -180,7 +180,7 @@ void main_task(intptr_t unused)
         int color = COLOR_NONE;
 
         //閾値で色判定
-        if (S < 20)
+        if (S < 50)
         {
             color = COLOR_BLACK;
         }
