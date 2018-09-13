@@ -192,11 +192,11 @@ void main_task(intptr_t unused)
         {
             color = COLOR_YELLOW;
         }
-        else if (H >= 100 && H < 117)
+        else if (H >= 100 && H < 130)
         {
             color = COLOR_GREEN;
         }
-        else if (H >= 155 && H < 197)
+        else if (H >= 155 && H < 210)
         {
             color = COLOR_BLUE;
         }
